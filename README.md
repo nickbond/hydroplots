@@ -9,9 +9,9 @@ Example
 
 The code below produces the following plot for Cooper Creek, a highly ephemeral river in western Queensland, Australia. The function uses geom\_raster() from the ggplot2 package. Addtional options are available (see ?ctf\_raster for details).
 
-     library(hydrostats)\n
-     data(Cooper)\n
-     ctf_heatmap(Cooper)\n
+     library(hydrostats)
+     data(Cooper)
+     ctf_heatmap(Cooper)
 
 ![Alt tag](https://github.com/nickbond/hydroplots/raw/master/ctf_heatmap.png "CTF Heatmap")
 
@@ -20,9 +20,10 @@ Installation
 
 To install run the following code:
 
-        install.packages(c("devtools"))
+      # install devtools pacakge
+      install.packages(c("devtools"))
 
-        #install pacakge
+      # install hydroplots package
         devtools::install_github("nickbond/hydroplots")
 
         # Remove the package zip after installation
