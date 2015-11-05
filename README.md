@@ -1,5 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Hydroplots
+hydroplots
 ==========
 
 hydroplots currently includes a single function (ctf\_heatmap) to plot a raster heat map of flow and cease to flow spells (or spells below a threshold) based on daily time-series data.
