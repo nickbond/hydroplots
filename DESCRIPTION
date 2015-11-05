@@ -1,0 +1,24 @@
+Package: hydroplots
+Type: Package
+Title: Several Specific Plots For Hydrologic Data
+Version: 0.1
+Date: 2015-11-03
+Authors@R: person("Nick", "Bond", email = "n.bond@griffith.edu.au",
+  role = c("aut", "cre"))
+Maintainer: Nick Bond <n.bond@griffith.edu.au>
+Description: Functions that draw on ggplot to produce a number of specific plots
+    for hydrologic data.
+License: GPL (>= 2)
+LazyData: True
+URL: https://github.com/nickbond/hydroplots
+Depends:
+    ggplot2,
+    graphics,
+    hydrostats,
+    lubridate,
+    plyr,
+    scales,
+    stats,
+    tidyr,
+    utils
+RoxygenNote: 5.0.0
