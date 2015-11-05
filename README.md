@@ -7,7 +7,7 @@ hydroplots currently includes a single function (ctf\_heatmap) to plot a raster 
 Example
 =======
 
-The code below produces the following plot for Cooper Creek, a highly ephemeral river in western Queensland, Australia. The function uses geom\_raster() from the ggplot2 package. Addtional options are available (see ?ctf\_raster for details).
+The code below produces the following plot for Cooper Creek, a highly ephemeral river in western Queensland, Australia. The function uses geom\_raster() from the ggplot2 package. Addtional options are available (see ?ctf\_heatmap for details).
 
      library(hydrostats)
      data(Cooper)
