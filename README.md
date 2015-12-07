@@ -4,17 +4,6 @@ hydroplots
 
 hydroplots currently includes a single function (ctf\_heatmap) to plot a raster heat map of flow and cease to flow spells (or spells below a threshold) based on daily time-series data.
 
-Example
-=======
-
-The code below produces the following plot for Cooper Creek, a highly ephemeral river in western Queensland, Australia. The function uses geom\_raster() from the ggplot2 package. Addtional options are available (see ?ctf\_heatmap for details).
-
-     library(hydrostats)
-     data(Cooper)
-     ctf_heatmap(Cooper)
-
-![Alt tag](https://github.com/nickbond/hydroplots/raw/master/ctf_heatmap.png "CTF Heatmap")
-
 Installation
 ============
 
@@ -31,6 +20,18 @@ To install run the following code:
         
         #load library
         library(hydroplots)
+
+Example
+=======
+
+The code below produces the following plot for Cooper Creek, a highly ephemeral river in western Queensland, Australia. The function uses geom\_raster() from the ggplot2 package. Addtional options are available (see ?ctf\_heatmap for details).
+
+     library(hydrostats)
+     library(hydroplots)
+     data(Cooper)
+     ctf_heatmap(Cooper)
+
+![Alt tag](https://github.com/nickbond/hydroplots/raw/master/ctf_heatmap.png "CTF Heatmap")
 
 Developer
 =========
