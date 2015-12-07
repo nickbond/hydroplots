@@ -28,6 +28,9 @@ To install run the following code:
 
         # Remove the package zip after installation
         unlink("hydroplots.zip")
+        
+        #load library
+        library(hydroplots)
 
 Developer
 =========
